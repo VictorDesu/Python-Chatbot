@@ -60,7 +60,7 @@ def iniciar_conversa():
         entrada = formatarEntrada(entrada)
         resposta = chatbot.respond(entrada)
 
-        if entrada.lower() == "sair" or entrada.lower() == "adeus" or entrada.lower() == "tchau" or entrada.lower() == "até logo":
+        if entrada == "sair" or entrada == "adeus" or entrada == "tchau" or entrada == "até logo":
             resposta = "Até logo!"
             break
 
